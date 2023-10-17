@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Form.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bod">
+        <div id="head">
+            <h3>Customer Servey Form </h3>
+        </div>
+
+
+        <div id="middle">
+            <form action="#">
+                <label>First Name :</label>
+                <input type="text" class="input" id="firstName" placeholder="Enter First Name">
+                <label>Last Name :</label>
+                <input type="text" class="input" id="lastName" placeholder="Enter Last Name"><br><br>
+
+                <label>Date of Birth :</label>
+                <input type="date" class="input" name="" id="date"><br><br>
+
+                <label>Country :</label>
+                <select name="Country" class="input" id="country">
+                    <option value="">Select Country </option>
+                    <option value="India">India</option>
+                    <option value="United Staates">United Staates</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="China">China</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="France">France</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Algeria">Algeria</option>
+                </select><br><br>
+
+                <label for="Gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" class="check" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" class="check" name="gender" id="female">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="gender"> <br><br>
+
+                <label>Profession :</label>
+                <input type="text" class="input" id="profession" placeholder="Enter your Profession"><br><br>
+                <label>Email :</label>
+                <input type="email" class="input" name="" id="email"><br><br>
+
+                <label>Mobile Number : </label>
+                <input type="number" class="input" name="number" id="number" placeholder="Number"><br><br>
+
+                <p>Your message :- </p>
+                <textarea name="" id="textarea" cols="60" rows="8" placeholder="Enter your message"></textarea><br><br>
+
+                <input type="button" value="Submit" class="submit" onclick="submitForm()" id="btn">
+                <input type="button" value="Reset" class="reset" onclick="resetForm()" id="btn">
+
+            </form>
+        </div>
+
+
+        <div id="bootom">
+            <p>2023 Customer Survey Form. All Rights Reserved </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
